@@ -11,9 +11,9 @@ while n > 0:
 	num = input('請猜數字')
 	num = int(num)
 	if num > r:
-		print('數字比答案大', n,'次機會')
+		print('你猜數字比答案大', n,'次機會')
 	elif num < r:
-		print('數字比答案小', n,'次機會')
+		print('你猜數字比答案小', n,'次機會')
 	elif num == r:
 		print('恭喜你猜對數字了')
 		break
