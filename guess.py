@@ -1,5 +1,9 @@
 import random
-r = random.randint(1, 100)
+s = input('猜數字遊戲起始數字: ')
+s = int(s)
+end = input('猜數字遊戲末端數字: ')
+end = int(end)
+r = random.randint(s, end)
 n = 5 # 5次機會
 print(r)
 while n > 0:
